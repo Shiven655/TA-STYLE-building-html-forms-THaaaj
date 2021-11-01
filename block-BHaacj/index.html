@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>html-forms</title>
+        <script src="https://kit.fontawesome.com/d8b1c8e668.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="container flex">
+           <a class="flex brand" href="#">
+               <img src="assets/logo.png"
+               alt="journey logo">
+               <strong>Journey</strong>
+           </a> 
+           <nav class="flex">
+               <ul class="flex nav-menu">
+                   <li class="nav-menu-item">
+                       <a class="active" href="#">Home</a>
+                   </li>
+               </ul>
+               <ul>
+                <li class="nav-menu-item">
+                    <a href="#destination">Top Destination</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="nav-menu-item">
+                    <a href="#recommended">Recommended Places</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="nav-menu-item">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+           </nav>    
+            </div>
+        </header>
+        <main>
+         <!--hero-->  
+         <div class="container">
+            <section class="hero">
+            <h1 class="hero-heading">Let's Begain</h1>
+            <div class="flex justify-centre column">
+                <div class="dot"></div>
+                <div class="dot dot-active"></div>
+                <div class="dot"></div>
+            </div>
+            <div>
+                <h4 class="hero-subheading">We assist you to chose the best</h4>
+            <div class="icon-box">
+              <i class="fas fa-chevron-down"></i> 
+            </div>
+            <form action="" class="flex item-start">
+                <fieldset class="flex-46">
+                    <label for="Destination">Chose your destination</label>
+                    <input 
+                    class="form-control"
+                    type="text"
+                    id="destination"
+                    placeholder="type your destination"
+                    />
+                        <div class="flex margin-top">
+                                <label for="check-in">Check In Date</label>
+                                <input 
+                                class="form-control"
+                                name="check-in"
+                                type="date" 
+                                placeholder="Check in" 
+                                id="check-in"
+                                />   
+                            <label for="check-out">Check Out Date</label>
+                            <input 
+                            class="form-control"
+                            name="check-out"
+                            type="date"
+                            placeholder="Check Out" 
+                            id="check-out" 
+                            />
+                           
+                        </div>
+                    </fieldset>
+                    <div>
+                <fieldset class="flex-46">
+                    <div class="flex">
+                        <div>
+                            <label for="room">How Many Rooms?</label>
+                            <select class="form-control" name="room" id="room">
+                                <option value="">1 Room</option>
+                                <option value="">2 Room</option>
+                                <option value="">3 Room</option>
+                                <option value="">4 Room</option>
+                                <option value="">5 Room</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="adult">Adult</label>
+                            <select class="form-control" name="adult" id="room">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                            </div>
+                        <div>
+                            <label for="child">Children</label>
+                            <select class="form-control" name="child" id="child">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                            </select>
+                    </div>
+                    </div>
+                    <input class="btn btn-primary margin-top" type="submit" value="Check Availabilty"
+                    />
+                </fieldset>
+            </div>
+            </form>
+            <!--about-->
+         </section> 
+         <section class="padding text-center about">
+             <div class="about-wrapper">
+                <h2>Your <strong>Journey</strong> is our priority</h2>
+                <p>Journies are the most exciting part of life. The most fascinating journey for me is traveling by train. Last summer vacation, my parents planned a trip to Shimla. Early morning we had to board the train. It was because of the excitement of going for the trip that I and my sister woke up as easily as my parents. 
+               
+                </p>
+                <a class="btn btn-primary" href="">Continue Explore</a>
+             </div>
+
+         </section>
+         <!--Top Destination-->
+         <section 
+         id="destination"
+         class="">
+             <article class="flex article">
+                 <div class="flex-50 font-0 article-col-left">
+                     <img src="assets/tm-img-01.jpg" alt="TM" />
+                     <div 
+                     class="flex justify-end nav-btn-container
+                     nav-btn-container-right">
+                        <div class="nav-btn center">
+                            <div class="nav-btn-icon">
+                                <i class="fas fa-angle-left"></i>
+                            </div>
+                        </div>
+                        <div class="nav-btn center">
+                        <div class="nav-btn-icon">
+                           <i class="fas fa-angle-right"></i>
+                        </div>
+                        </div>
+                    </div>
+                     </div>  
+                 <div class="flex-50 article-col-right left">
+                     <h3>Europes most visited places</h3>
+                    <p>Journies are the most exciting part of life. The most fascinating journey for me is traveling by train. Last summer vacation, my parents planned a trip to Shimla. Early morning we had to board the train. It was because of the excitement of going for the trip that I and my sister woke up as easily as my parents. 
+                        </p>
+                       
+                     <a class="btn btn-secondary" href="#">Continus Reading</a>
+                 </div>
+             </article>
+             <article class="flex article">
+                <div class="flex-50 article-col-right right
+                bg-secondary">
+                    <h3>Asia's most visited places</h3>
+                   <p>Journies are the most exciting part of life. The most fascinating journey for me is traveling by train. Last summer vacation, my parents planned a trip to Shimla. Early morning we had to board the train. It was because of the excitement of going for the trip that I and my sister woke up as easily as my parents. 
+                       </p>
+                      
+                    <a class="btn btn-secondary" href="#">Continus Reading</a>
+                </div>
+                <div class="flex-50 font-0 article-col-left">
+                    <img src="assets/tm-img-02.jpg" alt="TM" />
+                    <div class="flex justify-end nav-btn-container
+                    nav-btn-container-left">
+                       <div class="nav-btn center">
+                           <div class="nav-btn-icon">
+                               <i class="fas fa-angle-left"></i>
+                           </div>
+                       </div>
+                       <div class="nav-btn center">
+                       <div class="nav-btn-icon">
+                          <i class="fas fa-angle-right"></i>
+                       </div>
+                       </div>
+                   </div>
+                    </div> 
+            </article>
+            <article class="flex article">
+                <div class="flex-50 font-0 article-col-left">
+                    <img src="assets/tm-img-03.jpg" alt="TM" />
+                    <div 
+                    class="flex justify-end nav-btn-container
+                    nav-btn-container-right">
+                       <div class="nav-btn center">
+                           <div class="nav-btn-icon">
+                               <i class="fas fa-angle-left"></i>
+                           </div>
+                       </div>
+                       <div class="nav-btn center">
+                       <div class="nav-btn-icon">
+                          <i class="fas fa-angle-right"></i>
+                       </div>
+                       </div>
+                   </div>
+                    </div>  
+                <div class="flex-50 article-col-right left">
+                    <h3>America's most visited places</h3>
+                   <p>Journies are the most exciting part of life. The most fascinating journey for me is traveling by train. Last summer vacation, my parents planned a trip to Shimla. Early morning we had to board the train. It was because of the excitement of going for the trip that I and my sister woke up as easily as my parents. 
+                       </p>
+                      
+                    <a class="btn btn-secondary" href="#">Continus Reading</a>
+                </div>
+            </article>
+        </article>
+    </section>
+    <!--maps-->
+    <section class="flex maps">
+        <div class="grow text-center font-0">
+            <img src="assets/north-america.png" alt="North America" />
+            <p>North America</p>
+        </div>
+        <div class="grow text-center font-0">
+            <img src="assets/south-america.png" alt="South America" />
+            <p>South America</p>
+        </div>
+        <div class="grow text-center font-0">
+            <img src="assets/europe.png" alt="Europe" />
+            <p>Europe</p>
+        </div>
+        <div class="grow text-center font-0 active">
+            <img src="assets/asia.png" alt="Asia" />
+            <p>Asia</p>
+        </div>
+        <div class="grow text-center font-0">
+            <img src="assets/africa.png" alt="Africa" />
+            <p>Africa</p>
+        </div>
+        <div class="grow text-center font-0">
+            <img src="assets/australia.png" alt="Austrailia" />
+            <p>Austrailia</p>
+        </div>
+        <div class="grow text-center font-0">
+            <img src="assets/antartica.png" alt="Antartica" />
+            <p>Antartica</p>
+        </div>
+    </section>
+    <!--recommended places-->
+    <section 
+    id="recommended"
+    class="padding recommended">
+        <article class="flex recommended-item item-stretch">
+        <div class="flex-30 font-0">
+            <img 
+            class="width-full"
+            src="assets/tm-img-06.jpg" alt="TM IMG" 
+            />
+        </div>
+        <div class="flex-50 
+        recommended-item-content">
+            <h3>Asia Resort Hotel</h3>
+            <h4>Singapore</h4>
+            <p>
+                A journey by train is the most exiting journey for me.
+                A journey by train is the most 
+                exiting journey for me.
+                A journey by train is the most 
+                exiting journey for me.
+            </p>
+            <img 
+            class="btn-curve"
+            src="assets/button-curve.png" 
+            alt="Button Curve" 
+            />
+        </div>
+        <div 
+        class="flex-20 recommended-item-pricing 
+        text-center center column" 
+        >
+        <h4>$440</h4>
+        <a href="#">Continue Reading</a>
+        </div>
+        </article>
+        <article class="flex recommended-item item-stretch">
+            <div class="flex-30 font-0">
+                <img 
+                class="width-full"
+                src="assets/tm-img-04.jpg" alt="TM IMG" 
+                />
+            </div>
+            <div class="flex-50 
+            recommended-item-content">
+                <h3>Asia Resort Hotel</h3>
+                <h4>Singapore</h4>
+                <p>
+                    A journey by train is the most exiting journey for me.
+                    A journey by train is the most 
+                    exiting journey for me.
+                    A journey by train is the most 
+                    exiting journey for me.
+                </p>
+                <img 
+                class="btn-curve"
+                src="assets/button-curve.png" 
+                alt="Button Curve" 
+                />
+            </div>
+            <div 
+            class="flex-20 recommended-item-pricing 
+            text-center center column" 
+            >
+            <h4>$450</h4>
+            <a href="#">Continue Reading</a>
+            </div>
+            </article>
+            <article class="flex recommended-item item-stretch">
+                <div class="flex-30 font-0">
+                    <img 
+                    class="width-full"
+                    src="assets/tm-img-05.jpg" alt="TM IMG" 
+                    />
+                </div>
+                <div class="flex-50 
+                recommended-item-content">
+                    <h3>Asia Resort Hotel</h3>
+                    <h4>Singapore</h4>
+                    <p>
+                        A journey by train is the most exiting journey for me.
+                        A journey by train is the most 
+                        exiting journey for me.
+                        A journey by train is the most 
+                        exiting journey for me.
+                    </p>
+                    <img 
+                    class="btn-curve"
+                    src="assets/button-curve.png" 
+                    alt="Button Curve" 
+                    />
+                </div>
+                <div 
+                class="flex-20 recommended-item-pricing 
+                text-center center column" 
+                >
+                <h4>$460</h4>
+                <a href="#">Continue Reading</a>
+                </div>
+                </article>
+                <article class="flex recommended-item item-stretch">
+                    <div class="flex-30 font-0">
+                        <img 
+                        class="width-full"
+                        src="assets/tm-img-07.jpg" alt="TM IMG" 
+                        />
+                    </div>
+                    <div class="flex-50 
+                    recommended-item-content">
+                        <h3>Asia Resort Hotel</h3>
+                        <h4>Singapore</h4>
+                        <p>
+                            A journey by train is the most exiting journey for me.
+                            A journey by train is the most 
+                            exiting journey for me.
+                            A journey by train is the most 
+                            exiting journey for me.
+                        </p>
+                        <img 
+                        class="btn-curve"
+                        src="assets/button-curve.png" 
+                        alt="Button Curve" 
+                        />
+                    </div>
+                    <div 
+                    class="flex-20 recommended-item-pricing 
+                    text-center center column" 
+                    >
+                    <h4>$470</h4>
+                    <a href="#">Continue Reading</a>
+                    </div>
+                    </article>
+                    <div class="text-center">
+                        <a class="btn btn-primary" href="#">Show more places</a>
+                    </div>
+                    
+    </section>
+    <!--contact-->
+    <section 
+    id="contact" 
+    class="contact font-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3375.8881481791873!2d76.3531963147538!3d32.207244481147825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1635706234365!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+        ></iframe>
+        <div class="overlay"></div>
+        <form action="">
+            <fieldset>
+                <div class="flex">
+                    <input 
+                    class="form-control flex-46"
+                    name="name"
+                    type="text" 
+                    placeholder="Name" />
+                    <input 
+                    class="form-control flex-46"
+                    name="email"
+                    type="email" 
+                    placeholder="Email"
+                    />
+                </div>
+                <input 
+                class="form-control"
+                name="subject"
+                 type="text"
+                  placeholder="Subject" 
+                  />
+                <textarea 
+                class="form-control"
+                name="message"
+                rows="6"
+                placeholder="Message"
+                ></textarea>
+                <input 
+                class="btn btn-primary"
+                type="submit"
+                value="send message now"
+                />
+               
+            </fieldset>
+        </form>
+    </section>
+    </div>
+    <footer class="footer padding text-center">
+        <small>copyright &copy; 2020 Your company. Designed by Template Mo</small>
+
+    </footer>
+
+        </div>
+        </main>
+    </body>
+</html>
